@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <child-component>
-      <template v-slot:top="slotProps">{{ slotProps }}</template>
+      <template v-slot:top="{ myUser }">{{ myUser }}</template>
     </child-component>
     <!--如果HelloWorld中的没有slot元素，那么<h3>大标题</h3>将不会显示-->
   </div>

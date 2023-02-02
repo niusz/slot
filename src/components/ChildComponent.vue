@@ -13,7 +13,7 @@ export default {
   name: "ChildComponent",
   data() {
     return {
-      user: "Ross",
+      user: "小狐狸",
     };
   },
 };

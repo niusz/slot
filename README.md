@@ -1,5 +1,5 @@
 # slot
-
+vue2 slot代码学习
 ## Project setup
 ```
 npm install

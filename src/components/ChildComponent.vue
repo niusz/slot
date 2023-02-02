@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <slot></slot>
+    <slot>Some default message</slot>
   </div>
 </template>
 

@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
-    <child-component msg="Welcome to Your Vue.js App"
-      ><h3>大标题</h3></child-component
-    >
+    <child-component msg="Welcome to Your Vue.js App"></child-component>
     <!--如果HelloWorld中的没有slot元素，那么<h3>大标题</h3>将不会显示-->
   </div>
 </template>

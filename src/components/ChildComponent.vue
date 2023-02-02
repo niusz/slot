@@ -1,14 +1,20 @@
 <template>
   <div class="hello">
     <slot>Some default message</slot>
+    <br />
+    <slot name="top" :myUser="user"></slot>
+    <br />
+    <slot name="bottom"></slot>
   </div>
 </template>
 
 <script>
 export default {
   name: "ChildComponent",
-  props: {
-    msg: String,
+  data() {
+    return {
+      user: "Ross",
+    };
   },
 };
 </script>

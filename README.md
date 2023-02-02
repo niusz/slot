@@ -1,5 +1,6 @@
 # slot
 vue2 slot代码学习
+https://juejin.cn/post/6844903795516768263
 ## Project setup
 ```
 npm install
